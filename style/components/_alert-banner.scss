@@ -1,0 +1,15 @@
+@import '../helpers/variables';
+
+.alert-banner {
+    width: 100%;
+    background-color: $darkblue;
+    color: white;
+    text-align: center;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    padding: 8px 0;
+
+    a {
+        text-decoration: underline;
+    }
+}

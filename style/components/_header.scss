@@ -1,0 +1,41 @@
+header {
+    .container {
+        .content {
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logo {
+                width: 70px;
+            }
+
+            nav {
+                ul {
+                    list-style: none;
+
+                    li {
+                        display: inline-block;
+                        margin: 0 1rem;
+                    }
+                }
+            }
+
+            .right-nav {
+                ul {
+                    li {
+                        display: inline-block;
+                        margin-left: 0.75rem;
+                        vertical-align: middle;
+
+                        button {
+                            background: transparent;
+                            padding: 0;
+                            border: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
