@@ -17,7 +17,8 @@ $(document).ready(function () {
     // Sliders
     // Home Slider
     $('.slider').slick({
-        dots: true
+        dots: true,
+        arrows: false
     });
 
 });
