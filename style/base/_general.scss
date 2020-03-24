@@ -1,3 +1,11 @@
+body {
+    padding-top: 167px;
+
+    &.collapsed {
+        padding-top: 48px;
+    }
+}
+
 .container {
     width: 90%;
     max-width: 1400px;

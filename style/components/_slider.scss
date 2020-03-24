@@ -1,0 +1,48 @@
+@import '../helpers/variables';
+
+.slider {
+    width: 100%;
+    position: relative;
+
+    .slick-dots {
+        position: absolute;
+        right: 5rem;
+        top: 50%;
+        transform: translateY(-50%);
+        width: auto;
+        bottom: auto;
+
+        li {
+            display: list-item;
+            text-align: right;
+            margin: 1rem 0;
+            width: auto;
+            height: auto;
+
+            button {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                border: 1px solid white;
+            }
+
+            &.slick-active {
+                button {
+                    background-color: $darkblue;
+                    border-color: $darkblue;
+                }
+            }
+        }
+    }
+
+    .slide {
+        &-content {
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: gray;
+            color: white;
+        }
+    }
+}
