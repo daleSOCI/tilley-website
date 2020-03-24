@@ -2,10 +2,19 @@
 <html lang="en">
 
 <head>
+
+    <!-- Tilley Style -->
     <link rel="stylesheet" href="/style/tilley.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Tilley Website</title>
+
 </head>
 
 <body>
@@ -15,18 +24,14 @@
         </div>
         <div class="container">
             <div class="content">
-                <div class="logo">
-                    <img src="/media/img/logo.png" class="w-100" alt="Tilley">
-                </div>
-                <nav>
-                    <ul class="main-nav">
-                        <li><a href="#">The Tilley Hat</a></li>
-                        <li><a href="#">Men</a></li>
-                        <li><a href="#">Women</a></li>
-                        <li><a href="#">Inside Tilley</a></li>
+                <div class="expanded-options">
+                    <ul>
+                        <li><a href="#">CA/CAD</a></li>
+                        <li><a href="#">Store Locator</a></li>
+                        <li><a href="#">Hat Sizer</a></li>
                     </ul>
-                </nav>
-                <div class="right-nav">
+                </div>
+                <div class="user-options">
                     <ul>
                         <li>
                             <a href="#">
@@ -48,13 +53,25 @@
                         </li>
                     </ul>
                 </div>
+                <div class="logo">
+                    <img src="/media/img/logo.png" class="w-100" alt="Tilley">
+                </div>
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="#">The Tilley Hat</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Inside Tilley</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
-    <main>
+    <main id="home">
         <section></section>
     </main>
     <footer></footer>
+    <script src="/scripts/tilley.js"></script>
 </body>
 
 </html>
